@@ -3,7 +3,11 @@ body {
     color:grey;
 }
 
-#me, #welcomText {
+#me {
+    border-radius: 100px;
+} 
+
+#welcomText {
     float:left;
 }
 
@@ -41,4 +45,10 @@ h1 {
     font-family: "tajawal", cursive;
     font-size: 4em;
     margin-bottom: 0px;
+}
+
+#content {
+        width: 960px;
+        margin: 0 auto;
+        text-align: center;
 }
