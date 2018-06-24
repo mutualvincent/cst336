@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<!--
+
+First Website
+and comment
+in html
+(comments can span multiple lines)
+
+-->
+
+<!-- This is the head -->
+<!-- All styles and javascript go inside the head -->
+    <head>
+        <meta charset='utf-8' />
+        <title> Yong Jiang: Personal Website </title>
+        
+        <style>
+            header, main, nav, footer {
+                text-align: center;
+            }
+            
+            hr {
+                width:50%;
+            }
+            
+            #hr_footer {
+                text-align: center;
+                width:25%;
+            }
+            
+            nav a { /* links within "nav" container */
+                padding:15px;
+                padding-bottom:4px;
+                font-size: 1.8em;
+                text-decoration: none; /* removes underline */
+                color: white;          /* by default, links are blue */
+            }
+            
+            nav a:hover {    /*pseudo class*/
+                border-bottom:2px orange solid;
+                font-size: 2em;
+                transition: .9s; /* transition effect */
+            }
+            
+            footer {
+                clear: left;
+            }
+            
+        </style>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+    </head>
+<!-- closing head -->
+
+    <!-- This is the body -->
+    <!-- This is where we place the content of our website -->
+    <body>
+        <header>
+            <h1> Yong Jiang </h1> 
+        </header>
+        
+        <nav>
+            <hr width="50%" />
+            <a href="index.html"> Home </a>
+            <a href="about.html"> About </a>
+            <a href="contact.html"> Conact </a>
+        </nav>
+        
+        <div id="content">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc6e2eDbeuquHMA9cowu2ppeXpqAOoCr64D64D9xuHocryFYw/viewform?embedded=true" width="700" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+            
+        </div>
+        
+        <!-- This is the footer -->
+        <!-- The footer goes inside the body but not always -->
+        <footer>
+            <hr>
+                CST336. 2018&copy; Jiang <br />
+                <strong>Disclaimer:</strong> The information in this webpage is fictitous. <br />
+        </footer>
+        <!-- closing footer -->
+        
+    </body>
+    <!-- closing body -->
+
+</html>
