@@ -1,0 +1,54 @@
+body {
+    background-color:black;
+    color:grey;
+}
+
+#me {
+    border-radius: 100px;
+} 
+
+#welcomText {
+    float:left;
+}
+
+.hobby {
+    color: yellow;
+}
+
+table {
+    margin:0px auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: orange;
+}
+
+#table-header {
+    background-color: #351a00;
+}
+
+.table-row {
+    background-color: #753900;
+}
+
+ul {
+    text-align: left;
+    padding-left: 200px;
+}
+
+h1 {
+    font-family: "tajawal", cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+#content {
+        width: 960px;
+        margin: 0 auto;
+        text-align: center;
+}
