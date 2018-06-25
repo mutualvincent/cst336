@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <!--
 
 First Website
@@ -13,11 +13,15 @@ in html
 <!-- All styles and javascript go inside the head -->
     <head>
         <meta charset='utf-8' />
-        <title> Yong Jiang: Personal Website </title>
+        <title> Computer Virus </title>
         
         <style>
             header, main, nav, footer {
                 text-align: center;
+            }
+            
+            hr {
+                width:50%;
             }
             
             #hr_footer {
@@ -39,14 +43,13 @@ in html
                 transition: .9s; /* transition effect */
             }
             
-            
             footer {
                 clear: left;
             }
             
         </style>
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     </head>
 <!-- closing head -->
 
@@ -54,51 +57,47 @@ in html
     <!-- This is where we place the content of our website -->
     <body>
         <header>
-            <h1> Yong Jiang </h1> 
+            <h1> VIRUS ATTACK </h1> 
         </header>
         
         <nav>
             <hr width="50%" />
-            <a href="index.html"> Home </a>
-            <a href="about.html"> About </a>
-            <a href="contact.html"> Contact </a>
+            <a href="index.html"> Computer Virus </a>
+            <a href="attack.html"> Virus Attack </a>
+            <a href="spread.html"> Virus Spread </a>
+            <a href="protect.html"> Protect Against Virus </a>
         </nav>
         
-        <div id="content">
-            <table>
-                <tr id="table-header">
-                    <td><strong>Programming Languages</strong></td>
-                    <td><strong>Years Experience</strong></td>
-                </tr>
-                <tr class="table-row">
-                    <td>Java</td>
-                    <td>3</td>
-                </tr>
-                <tr class="table-row">
-                    <td>C++</td>
-                    <td>2</td>
-                </tr>
-                <tr class="table-row">
-                    <td>PHP</td>
-                    <td>1</td>
-                </tr>
-            </table>
+        <main>
+            
+            <figure id="me">
+                <img src="img/bsod.jpg" alt="Blue Screen of Death" width="450">
+            </figure>
+            
+        <div id="welcomeText">
+            How does virus attack?
+            <p>
+            Once a virus has successfully attached to a program, file, or document, the virus will lie dormant until circumstances cause the 
+            computer or device to execute its code. In order for a virus to infect your computer, you have to run the infected program, 
+            which in turn causes the virus code to be executed. This means that a virus can remain dormant on your computer, 
+            without showing major sings or symptoms. However, once the virus infects your computer, the virus can infect other computers on the same network. 
+            Stealing passwords or data, logging keystrokes, corrupting files, spamming your email contacts, and even taking over your 
+            machine are just some of the devastating and irritating things a virus can do.
+            </p>
         </div>
         
-        <ul>
-            <li><span class="hobby">Basketball</span>: I play hoops with my friends whenever we can.</li>
-            <li><span class="hobby">Music</span>: I like all kinds of music, espcially Hawaiian music!</li>
-            <li><span class="hobby">Programming</span>: I wanted to spend a lot time on it, but too much work...</li>
-            <li><span class="hobby">Food</span>: I enjoy going out and try different types of food with firends.</li>
-        </ul>
-        
+        </main>
         
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->
         <footer>
-            <hr width="75%">
+            <hr>
                 CST336. 2018&copy; Jiang <br />
                 <strong>Disclaimer:</strong> The information in this webpage is fictitous. <br />
+            
+            <figure id="logo">
+                <img src="img/logo.png" alt="Image of CSUMB" width="100">
+            </figure>    
         </footer>
         <!-- closing footer -->
         
