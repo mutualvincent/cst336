@@ -13,12 +13,18 @@ echo "Yong Jiang's CST336 Internet Programming";
     
             <a href="labs/lab1/"> Lab1 </a>
             
+            <br /> <br />
+            
             <a href="labs/lab2/"> Lab2 </a>
             
             
         <h2> Homework </h1>
         
             <a href="hw/hw1/"> Homework 1 </a>
+            
+            <br /> <br />
+            
+            <a href="hw/hw1/"> Homework 2 </a>
             
 
 
