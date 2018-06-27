@@ -1,0 +1,24 @@
+[27-Jun-2018 00:17:21 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 20
+[27-Jun-2018 00:17:21 UTC] PHP Stack trace:
+[27-Jun-2018 00:17:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[27-Jun-2018 00:21:09 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 20
+[27-Jun-2018 00:21:09 UTC] PHP Stack trace:
+[27-Jun-2018 00:21:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[27-Jun-2018 00:21:57 UTC] PHP Fatal error:  Call to undefined function displaySymbol() in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 72
+[27-Jun-2018 00:21:57 UTC] PHP Stack trace:
+[27-Jun-2018 00:21:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[27-Jun-2018 00:37:10 UTC] PHP Fatal error:  Call to undefined function displaySymbols() in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 76
+[27-Jun-2018 00:37:10 UTC] PHP Stack trace:
+[27-Jun-2018 00:37:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[27-Jun-2018 00:37:44 UTC] PHP Fatal error:  Call to undefined function displaySymbols() in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 76
+[27-Jun-2018 00:37:44 UTC] PHP Stack trace:
+[27-Jun-2018 00:37:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[27-Jun-2018 01:03:30 UTC] PHP Parse error:  syntax error, unexpected 'reel' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab2/inc/functions.php on line 13
+[27-Jun-2018 01:03:30 UTC] PHP Stack trace:
+[27-Jun-2018 01:03:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[27-Jun-2018 01:03:34 UTC] PHP Parse error:  syntax error, unexpected 'reel' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab2/inc/functions.php on line 13
+[27-Jun-2018 01:03:34 UTC] PHP Stack trace:
+[27-Jun-2018 01:03:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[27-Jun-2018 01:09:26 UTC] PHP Parse error:  syntax error, unexpected 'img' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab2/inc/functions.php on line 13
+[27-Jun-2018 01:09:26 UTC] PHP Stack trace:
+[27-Jun-2018 01:09:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
