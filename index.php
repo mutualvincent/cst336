@@ -24,7 +24,7 @@ echo "Yong Jiang's CST336 Internet Programming";
             
             <br /> <br />
             
-            <a href="hw/hw1/"> Homework 2 </a>
+            <a href="hw/hw2/"> Homework 2 </a>
             
 
 
