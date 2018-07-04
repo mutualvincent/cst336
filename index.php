@@ -17,6 +17,9 @@ echo "Yong Jiang's CST336 Internet Programming";
             
             <a href="labs/lab2/"> Lab2 </a>
             
+            <br /> <br />
+            
+            <a href="labs/lab3/"> Lab3 </a>            
             
         <h2> Homework </h1>
         
@@ -26,7 +29,9 @@ echo "Yong Jiang's CST336 Internet Programming";
             
             <a href="hw/hw2/"> Homework 2 </a>
             
-
+            <br /> <br />
+            
+            <a href="hw/hw3/"> Homework 3 </a>
 
 </body>
 </html>
