@@ -22,3 +22,170 @@
 [27-Jun-2018 01:09:26 UTC] PHP Parse error:  syntax error, unexpected 'img' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab2/inc/functions.php on line 13
 [27-Jun-2018 01:09:26 UTC] PHP Stack trace:
 [27-Jun-2018 01:09:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[04-Jul-2018 14:50:04 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 49
+[04-Jul-2018 14:50:04 UTC] PHP Stack trace:
+[04-Jul-2018 14:50:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:11:18 UTC] PHP Fatal error:  Cannot redeclare getImageURLs() (previously declared in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php:4) in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 54
+[04-Jul-2018 15:11:18 UTC] PHP Stack trace:
+[04-Jul-2018 15:11:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:19:15 UTC] PHP Warning:  Missing argument 2 for getImageURLs(), called in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 6 and defined in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 4
+[04-Jul-2018 15:19:15 UTC] PHP Stack trace:
+[04-Jul-2018 15:19:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:19:15 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:19:15 UTC] PHP Warning:  curl_exec() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 19
+[04-Jul-2018 15:19:15 UTC] PHP Stack trace:
+[04-Jul-2018 15:19:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:19:15 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:19:15 UTC] PHP   3. curl_exec() /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php:19
+[04-Jul-2018 15:19:15 UTC] PHP Warning:  curl_error() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 26
+[04-Jul-2018 15:19:15 UTC] PHP Stack trace:
+[04-Jul-2018 15:19:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:19:15 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:19:15 UTC] PHP   3. curl_error() /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php:26
+[04-Jul-2018 15:19:15 UTC] PHP Warning:  curl_close() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 27
+[04-Jul-2018 15:19:15 UTC] PHP Stack trace:
+[04-Jul-2018 15:19:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:19:15 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:19:15 UTC] PHP   3. curl_close() /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php:27
+[04-Jul-2018 15:20:12 UTC] PHP Warning:  Missing argument 2 for getImageURLs(), called in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 6 and defined in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 4
+[04-Jul-2018 15:20:12 UTC] PHP Stack trace:
+[04-Jul-2018 15:20:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:20:12 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:20:12 UTC] PHP Warning:  curl_exec() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 19
+[04-Jul-2018 15:20:12 UTC] PHP Stack trace:
+[04-Jul-2018 15:20:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:20:12 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:20:12 UTC] PHP   3. curl_exec() /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php:19
+[04-Jul-2018 15:20:12 UTC] PHP Warning:  curl_error() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 26
+[04-Jul-2018 15:20:12 UTC] PHP Stack trace:
+[04-Jul-2018 15:20:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:20:12 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:20:12 UTC] PHP   3. curl_error() /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php:26
+[04-Jul-2018 15:20:12 UTC] PHP Warning:  curl_close() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 27
+[04-Jul-2018 15:20:12 UTC] PHP Stack trace:
+[04-Jul-2018 15:20:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:20:12 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:20:12 UTC] PHP   3. curl_close() /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php:27
+[04-Jul-2018 15:22:19 UTC] PHP Warning:  Missing argument 2 for getImageURLs(), called in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 6 and defined in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 4
+[04-Jul-2018 15:22:19 UTC] PHP Stack trace:
+[04-Jul-2018 15:22:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:22:19 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:22:26 UTC] PHP Warning:  Missing argument 2 for getImageURLs(), called in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 6 and defined in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 4
+[04-Jul-2018 15:22:26 UTC] PHP Stack trace:
+[04-Jul-2018 15:22:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:22:26 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:22:31 UTC] PHP Warning:  Missing argument 2 for getImageURLs(), called in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 6 and defined in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 4
+[04-Jul-2018 15:22:31 UTC] PHP Stack trace:
+[04-Jul-2018 15:22:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:22:31 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:23:22 UTC] PHP Warning:  Missing argument 2 for getImageURLs(), called in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 6 and defined in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 4
+[04-Jul-2018 15:23:22 UTC] PHP Stack trace:
+[04-Jul-2018 15:23:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:23:22 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:23:22 UTC] PHP Warning:  curl_exec() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 19
+[04-Jul-2018 15:23:22 UTC] PHP Stack trace:
+[04-Jul-2018 15:23:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:23:22 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:23:22 UTC] PHP   3. curl_exec() /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php:19
+[04-Jul-2018 15:23:22 UTC] PHP Warning:  curl_error() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 26
+[04-Jul-2018 15:23:22 UTC] PHP Stack trace:
+[04-Jul-2018 15:23:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:23:22 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:23:22 UTC] PHP   3. curl_error() /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php:26
+[04-Jul-2018 15:23:22 UTC] PHP Warning:  curl_close() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 27
+[04-Jul-2018 15:23:22 UTC] PHP Stack trace:
+[04-Jul-2018 15:23:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:23:22 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:23:22 UTC] PHP   3. curl_close() /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php:27
+[04-Jul-2018 15:23:31 UTC] PHP Warning:  Missing argument 2 for getImageURLs(), called in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 6 and defined in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 4
+[04-Jul-2018 15:23:31 UTC] PHP Stack trace:
+[04-Jul-2018 15:23:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:23:31 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:23:31 UTC] PHP Warning:  curl_exec() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 19
+[04-Jul-2018 15:23:31 UTC] PHP Stack trace:
+[04-Jul-2018 15:23:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:23:31 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:23:31 UTC] PHP   3. curl_exec() /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php:19
+[04-Jul-2018 15:23:31 UTC] PHP Warning:  curl_error() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 26
+[04-Jul-2018 15:23:31 UTC] PHP Stack trace:
+[04-Jul-2018 15:23:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:23:31 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:23:31 UTC] PHP   3. curl_error() /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php:26
+[04-Jul-2018 15:23:31 UTC] PHP Warning:  curl_close() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 27
+[04-Jul-2018 15:23:31 UTC] PHP Stack trace:
+[04-Jul-2018 15:23:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:23:31 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:23:31 UTC] PHP   3. curl_close() /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php:27
+[04-Jul-2018 15:23:56 UTC] PHP Warning:  Missing argument 2 for getImageURLs(), called in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 6 and defined in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 4
+[04-Jul-2018 15:23:56 UTC] PHP Stack trace:
+[04-Jul-2018 15:23:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:23:56 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:23:56 UTC] PHP Warning:  curl_exec() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 19
+[04-Jul-2018 15:23:56 UTC] PHP Stack trace:
+[04-Jul-2018 15:23:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:23:56 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:23:56 UTC] PHP   3. curl_exec() /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php:19
+[04-Jul-2018 15:23:56 UTC] PHP Warning:  curl_error() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 26
+[04-Jul-2018 15:23:56 UTC] PHP Stack trace:
+[04-Jul-2018 15:23:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:23:56 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:23:56 UTC] PHP   3. curl_error() /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php:26
+[04-Jul-2018 15:23:56 UTC] PHP Warning:  curl_close() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 27
+[04-Jul-2018 15:23:56 UTC] PHP Stack trace:
+[04-Jul-2018 15:23:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:23:56 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:23:56 UTC] PHP   3. curl_close() /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php:27
+[04-Jul-2018 15:24:00 UTC] PHP Warning:  Missing argument 2 for getImageURLs(), called in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 6 and defined in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 4
+[04-Jul-2018 15:24:00 UTC] PHP Stack trace:
+[04-Jul-2018 15:24:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:24:00 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:24:00 UTC] PHP Warning:  curl_exec() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 19
+[04-Jul-2018 15:24:00 UTC] PHP Stack trace:
+[04-Jul-2018 15:24:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:24:00 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:24:00 UTC] PHP   3. curl_exec() /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php:19
+[04-Jul-2018 15:24:00 UTC] PHP Warning:  curl_error() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 26
+[04-Jul-2018 15:24:00 UTC] PHP Stack trace:
+[04-Jul-2018 15:24:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:24:00 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:24:00 UTC] PHP   3. curl_error() /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php:26
+[04-Jul-2018 15:24:00 UTC] PHP Warning:  curl_close() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 27
+[04-Jul-2018 15:24:00 UTC] PHP Stack trace:
+[04-Jul-2018 15:24:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:24:00 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:24:00 UTC] PHP   3. curl_close() /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php:27
+[04-Jul-2018 15:31:36 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 49
+[04-Jul-2018 15:31:36 UTC] PHP Stack trace:
+[04-Jul-2018 15:31:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:32:54 UTC] PHP Warning:  Missing argument 2 for getImageURLs(), called in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 6 and defined in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 4
+[04-Jul-2018 15:32:54 UTC] PHP Stack trace:
+[04-Jul-2018 15:32:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:32:54 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:33:01 UTC] PHP Warning:  Missing argument 2 for getImageURLs(), called in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 6 and defined in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 4
+[04-Jul-2018 15:33:01 UTC] PHP Stack trace:
+[04-Jul-2018 15:33:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:33:01 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:33:06 UTC] PHP Warning:  Missing argument 2 for getImageURLs(), called in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 6 and defined in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 4
+[04-Jul-2018 15:33:06 UTC] PHP Stack trace:
+[04-Jul-2018 15:33:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:33:06 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:33:41 UTC] PHP Warning:  Missing argument 2 for getImageURLs(), called in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 6 and defined in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 4
+[04-Jul-2018 15:33:41 UTC] PHP Stack trace:
+[04-Jul-2018 15:33:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:33:41 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:33:46 UTC] PHP Warning:  Missing argument 2 for getImageURLs(), called in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 6 and defined in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 4
+[04-Jul-2018 15:33:46 UTC] PHP Stack trace:
+[04-Jul-2018 15:33:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:33:46 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:33:51 UTC] PHP Warning:  Missing argument 2 for getImageURLs(), called in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 6 and defined in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 4
+[04-Jul-2018 15:33:51 UTC] PHP Stack trace:
+[04-Jul-2018 15:33:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:33:51 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:35:35 UTC] PHP Warning:  Missing argument 2 for getImageURLs(), called in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 6 and defined in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 4
+[04-Jul-2018 15:35:35 UTC] PHP Stack trace:
+[04-Jul-2018 15:35:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:35:35 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6
+[04-Jul-2018 15:35:40 UTC] PHP Warning:  Missing argument 2 for getImageURLs(), called in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 6 and defined in /home/ubuntu/workspace/cst336/labs/lab3/api/pixabayAPI.php on line 4
+[04-Jul-2018 15:35:40 UTC] PHP Stack trace:
+[04-Jul-2018 15:35:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 15:35:40 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:6

@@ -75,7 +75,7 @@
                 ?>
         
         <form>
-            <input type="text" name="keyword" placeholder="Keyword" value="<?=$_GET['keyword']?>"/>
+            <input type="text" name="keyword" placeholder="keyword" value="<?=$_GET['keyword']?>"/>
             <input type = "radio" id = "lhorizontal" name = "layout" value = "horizontal">
             <label for = "Horizontal"></label><label for="lhorizontal"> Horizontal </label>
             <input type = "radio" id = "lvertical" name = "layout" value = "vertical">
