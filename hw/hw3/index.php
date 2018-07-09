@@ -1,3 +1,7 @@
+<?php
+    include 'functions.php';
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -42,7 +46,7 @@
                         <input type="radio" name="Question2" value="adaptable">
                         <label for="A3">Nothing</label> <br>
             
-                    <h3>Question 4: How do you enjoy while driving?</h3>
+                    <h3>How do you enjoy while driving?</h3>
                         <input type="radio" name="Question3" value="confidence">
                         <label for="A3">Radio Station</label> <br>
                         <input type="radio" name="Question3" value="independent">
@@ -67,6 +71,8 @@
                         <label for="A3">Don't care</label> <br>
             
                     <input class="btn" type="submit" name="submit" value="Submit">
+                    
+                    <?php echo $_POST['Question2']; ?>
             
                 </form>
             </div>
