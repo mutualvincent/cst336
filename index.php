@@ -25,6 +25,10 @@ echo "Yong Jiang's CST336 Internet Programming";
             
             <a href="labs/lab4/"> Lab4 </a>
             
+            <br /> <br />
+            
+            <a href="labs/lab5/"> Lab5 </a>
+            
         <h2> Homework </h1>
         
             <a href="hw/hw1/"> Homework 1 </a>
