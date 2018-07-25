@@ -19,10 +19,17 @@ window.onload = startGame();
 $(".letter").click(function() {
     checkLetter($(this).attr("id"));
     disableButton($(this));
-});
+})
 
 $(".replayBtn").on("click", function() {
     location.reload();
+})
+
+$(".hint").click(function() {
+   showHint(true);
+   remainingGuesses -= 1;
+   updateMan();
+   disableButton($(this));
 });
 
 // FUNCTIONS
@@ -31,6 +38,8 @@ function startGame() {
     initBoard();
     createLetters();
     updateBoard();
+    createHint();
+    wordsGuessed();
 }
 
 function pickWord() {
@@ -76,7 +85,6 @@ function updateWord(positions, letter) {
     for (var pos of positions) {
         board[pos] = letter;
     }
-    
     updateBoard();
 }
 
@@ -91,9 +99,10 @@ function updateBoard () {
         document.getElementById("word").innerHTML += letter + " ";
     }  
 
-
+/*
     $("#word").append("<br />");
     $("#word").append("<span class='hint'>Hint: " + selectedHint + "</span>");
+*/
 }
 
 function initBoard() {
@@ -122,4 +131,25 @@ function endGames(win) {
 function disableButton(btn) {
     btn.prop("disabled", true);
     btn.attr("class", "btn btn-danger");
+}
+
+function createHint() {
+    $("#hint").append("<button class='hint btn btn-primary'>" + 'Hint' + "</button>");
+    $("#hint").append("<br/>");
+}
+
+function showHint(selected) {
+    if (selected) {
+        $("#hint").append("<h4 class='hint'>Hint: " + selectedHint + "</span>");
+    }
+}
+
+function wordsGuessed () {
+    if(guessedWords.length > 0) {
+        $("#guessedWords").append("<b>Guessed Words: </b>");
+
+        for(var word of guessedWords) {
+            $("#guessedWords").append("<span class='guessedWords'>" + word + " " + "</span>");
+        }
+    }    
 }
