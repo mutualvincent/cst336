@@ -6,21 +6,21 @@
 	</head>
 	<body onload="init()">
 		<div id="gameWindow">
-			<div id="btnGo">GO</div>
+			<div id="btnGo" onclick="go()">GO</div>
 
 			<div id="playerPanel">
 				<h2>Player</h2>
 				<img id="imgPlayer" src="img/question.png">
 				<br><br>
-				<div id="btnRock" class="iconButton" onclick="selectRock()">
+				<div id="btnRock" class="iconButton" onclick="select('rock')">
 					<img src="img/rock.png">
 					<br>Rock
 				</div>
-				<div id="btnPaper" class="iconButton" onclick="selectPaper()">
+				<div id="btnPaper" class="iconButton" onclick="select('paper')">
 					<img src="img/paper.png">
 					<br>Paper
 				</div>
-				<div id="btnScissors" class="iconButton" onclick="selectScissors()">
+				<div id="btnScissors" class="iconButton" onclick="select('scissors')">
 					<img src="img/scissors.png">
 					<br>Scissors
 				</div>

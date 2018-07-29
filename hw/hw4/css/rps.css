@@ -46,7 +46,15 @@ h2{
 }
 
 .iconButton:hover{
-	color: white;
+	display: inline-block;
+	margin: 3px;
+	padding: 4px;
+	border-radius: 5px;
+	width: 48px;
+	text-align: center;
+	cursor: hand;
+	cursor: pointer;
+	font-size: 10pt;
 }
 
 .iconLabel{
@@ -78,8 +86,6 @@ h2{
 	font-size: 14pt;
 	background-color: #0CA619;
 	color: white;
-}
-
-#btnGo:hover{
-	background-color: #0CC819;
+	
+	display: none;
 }
