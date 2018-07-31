@@ -742,3 +742,20 @@ Stack trace:
 [18-Jul-2018 06:02:24 UTC] PHP Stack trace:
 [18-Jul-2018 06:02:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php:0
 [18-Jul-2018 06:02:24 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php:80
+[31-Jul-2018 21:29:01 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/cst336/labs/lab8/logout.php on line 2
+[31-Jul-2018 21:29:01 UTC] PHP Stack trace:
+[31-Jul-2018 21:29:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab8/logout.php:0
+[31-Jul-2018 21:29:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'score' cannot be null' in /home/ubuntu/workspace/cst336/labs/lab8/submitScores.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab8/submitScores.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab8/submitScores.php on line 18
+[31-Jul-2018 21:30:55 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/cst336/labs/lab8/logout.php on line 2
+[31-Jul-2018 21:30:55 UTC] PHP Stack trace:
+[31-Jul-2018 21:30:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab8/logout.php:0
+[31-Jul-2018 21:30:58 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/cst336/labs/lab8/logout.php on line 2
+[31-Jul-2018 21:30:58 UTC] PHP Stack trace:
+[31-Jul-2018 21:30:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab8/logout.php:0
+[31-Jul-2018 21:41:35 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/cst336/labs/lab8/logout.php on line 2
+[31-Jul-2018 21:41:35 UTC] PHP Stack trace:
+[31-Jul-2018 21:41:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab8/logout.php:0
