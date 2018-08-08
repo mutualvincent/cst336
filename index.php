@@ -41,7 +41,7 @@ echo "Yong Jiang's CST336 Internet Programming";
             
             <a href="labs/lab8/"> Lab8 </a>
             
-        <h2> Homework </h1>
+        <h1> Homework </h1>
         
             <a href="hw/hw1/"> Homework 1 </a>
             
@@ -56,6 +56,15 @@ echo "Yong Jiang's CST336 Internet Programming";
             <br /> <br />
             
             <a href="hw/hw4/"> Homework 4 </a>
+            
+        <h1> Finals </h1>
+        
+            <a href="final/"> Program 1 </a>
+            
+        <h1> Final Project </h1>
+        
+            <a href="final_project/"> Final Project </a>
+            
 
 </body>
 </html>
