@@ -77,6 +77,10 @@
                   <li class="nav-item">
                     <a href="./cart.php" class="nav-link" href="#">Cart: <?php displaycartCount(); ?></a>
                   </li>
+                  <li class="nav-item">
+                    <a href="./login.php" class="nav-link" href="#">Login</a>
+                  </li>
+                 
                 </ul>
             
               </div>

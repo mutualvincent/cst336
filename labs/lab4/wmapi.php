@@ -4,6 +4,7 @@
         $search = str_replace(' ', '%20', $keywords);
         $curl = curl_init();
         curl_setopt_array($curl, array(
+          // CURLOPT_URL => "http://open.api.ebay.com/shopping?callname=FindProducts&responseencoding=XML&appid=YongJian-sandbox-PRD-bed59bfca-329276f6&siteid=0&QueryKeywords=dog&version=967",
           CURLOPT_URL => "http://api.walmartlabs.com/v1/search?apiKey=7eksjp57nqzw9hnb9hsudh93&query='$search'",
           CURLOPT_RETURNTRANSFER => true,
           CURLOPT_TIMEOUT => 30,
